@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-#echo "PATH=~/ant/usr/apache-ant-1.9.3/bin:$PATH" > ~/app-root/data/.bash_profile
-
 # if ant is installed by default (as it is on RH's openshift servers)
 # the ant jars in /usr/share/java are used instead of ant's local
 # jars. This means even if running the local ant binary, it'll still
