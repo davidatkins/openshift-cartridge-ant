@@ -1,5 +1,5 @@
 #!/bin/bash -e
 
-echo "PATH=$PATH:~/ant/usr/apache-ant-1.9.3/bin" > ~/app-root/data/.bashrc
+echo "PATH=$PATH:~/ant/usr/apache-ant-1.9.3/bin" > ~/app-root/data/.bash_profile
 
 exit 0
