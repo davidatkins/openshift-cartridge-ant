@@ -19,10 +19,10 @@ Categories:
 Provides:
 - ant-1.9.3
 - ant
-#Cart-Data:
-#- Key: OPENSHIFT_MOCK_EXAMPLE
-#  Type: environment
-#  Description: An example environment variable using ERB processing
+Cart-Data:
+- Key: OPENSHIFT_ANT_PATH_ELEMENT
+  Type: environment
+  Description: An example environment variable using ERB processing
 #Publishes:
 Subscribes:
   set-env:

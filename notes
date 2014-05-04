@@ -1,0 +1,14 @@
+java.class.path : /usr/share/java/ant.jar:/usr/share/java/ant-launcher.jar:/usr/share/java/jaxp_parser_impl.jar:/usr/share/java/xml-commons-apis.jar:/usr/lib/jvm/java/lib/tools.jar
+
+http://stackoverflow.com/questions/1909634/why-does-ant-ignore-task-jars-in-home-ant-lib
+
+ant --noconfig -version
+ (stops reading /etc/ant.conf)
+ 
+ 
+ OPENSHIFT_yourcartname_LD_LIBRARY_PATH_ELEMENT - use for nistpack?
+ 
+ Can't update PATH in .bash_profile?
+    -> https://bugzilla.redhat.com/show_bug.cgi?id=888377
+    
+ Can set PATH using cart setting? -> https://lists.openshift.redhat.com/openshift-archives/users/2013-August/msg00020.html
