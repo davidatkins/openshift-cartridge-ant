@@ -1,0 +1,29 @@
+---
+Name: ant
+Cartridge-Short-Name: ANT
+Display-Name: Ant Cartridge 0.1
+Description: A cartridge for installing ant
+Version: '0.1'
+#Versions:
+#- '0.1'
+#- '0.2'
+#- '0.3'
+#- '0.4'
+License: ASL 2.0
+Vendor: DavidAtkins
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: davidatkins
+Categories:
+- embedded
+Provides:
+- ant-1.9.3
+- ant
+#Cart-Data:
+#- Key: OPENSHIFT_MOCK_EXAMPLE
+#  Type: environment
+#  Description: An example environment variable using ERB processing
+#Publishes:
+Subscribes:
+  set-env:
+    Type: ENV:*
+    Required: false
