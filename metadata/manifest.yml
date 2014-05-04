@@ -4,6 +4,7 @@ Cartridge-Short-Name: ANT
 Display-Name: Ant Cartridge 0.1
 Description: A cartridge for installing ant
 Version: '0.1'
+Source-Url: https://github.com/davidatkinsuk/openshift-cartrige-test.git
 #Versions:
 #- '0.1'
 #- '0.2'
