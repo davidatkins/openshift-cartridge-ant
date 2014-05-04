@@ -1,6 +1,6 @@
 # OpenShift Ant Cartridge
 
-This is a cartidge that adds ant to the SSH path
+This is a cartidge that adds ant to the SSH path. This is required on a project to run some legacy install scripts locally
 
 This was created for use on a private OpenShift instance, where ant isn't available by default (unlike the Redhat Openshift server, where ant is on /usr/bin for free)
 
