@@ -7,6 +7,6 @@
 # jars. This means even if running the local ant binary, it'll still
 # use a different version. no config stops ant from reading /etc/ant.confg
 # and/or finding those shared binaries (not sure which is fixing it!)
-alias ant='ant --noconfig'
+echo "alias ant='ant --noconfig'" > ~/app-root/data/.bash_profile
 
 exit 0
